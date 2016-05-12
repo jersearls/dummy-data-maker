@@ -477,32 +477,27 @@
     {
       "name": "Thread Index",
       "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "length": 46
     },
     {
       "name": "TOPICDSC",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["ACCY : EEC", "EVENT : All Other Events", "FAN : Fan Aerofoil"]
     },
     {
       "name": "Warning",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "Item Type",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["Folder"]
     },
     {
       "name": "Path",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["sites/pscomm2015hit/Lists/PSCOMM15"]
     }
   ]
 }
