@@ -1,6 +1,4 @@
 source "https://rubygems.org"
 
-gem 'faker'
+gem 'faked_csv'
 gem 'pry'
-
- 
