@@ -88,453 +88,391 @@
     },
     {
       "name": "Created",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["2016-02-20 05:55:02","2016-01-24 12:58:05","2016-03-10 16:06:27","2016-03-31 07:33:54",
+        "2016-04-25 18:31:56",
+        "2016-02-06 19:35:49","2016-04-02 11:41:40","2016-02-01 05:36:11","2016-05-02 15:27:50","2016-02-28 17:51:50",
+        "2016-01-03 23:05:16","2016-04-08 08:22:41","2016-03-09 19:40:58","2016-03-09 06:36:45","2016-04-28 19:52:21",
+        "2016-05-02 23:06:05","2016-02-07 08:07:09","2016-05-12 19:31:59","2016-03-15 11:20:30","2016-03-12 04:14:31",
+        "2016-04-03 05:01:23","2016-04-20 03:33:57","2016-02-15 08:37:27","2016-03-17 02:46:25","2016-04-13 01:15:31",
+        "2016-04-23 14:43:04","2016-04-27 08:26:23","2016-03-05 00:43:10","2016-04-14 11:17:00","2016-03-12 19:14:53",
+        "2016-03-24 12:33:26","2016-01-10 11:09:10","2016-03-27 13:21:05","2016-03-26 19:34:43","2016-01-29 16:44:17",
+        "2016-04-22 03:06:19","2016-01-29 02:41:34","2016-02-24 21:41:43","2016-01-23 17:07:20","2016-02-05 05:31:09",
+        "2016-01-11 16:47:44","2016-02-04 02:16:42","2016-01-26 06:28:59","2016-04-23 00:18:50","2016-03-06 08:50:26",
+        "2016-03-18 22:56:49","2016-03-31 16:05:43","2016-02-08 03:33:16","2016-04-07 00:51:25","2016-05-05 07:41:52"]
     },
     {
       "name": "Created By2",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["System Account"]
     },
     {
       "name": "CUSTCSM",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:app:name"
     },
     {
       "name": "CUSTCSMA",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:app:name"
     },
     {
       "name": "CUSTDSC",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:app:name"
     },
     {
       "name": "Disclaimer",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "DisclaimerTextA",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "DisclaimerTitleA",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "DisclaimerTitleB",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "Discussion Title",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "DisplayFrom",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "DisplayJT",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "DisplayOFPN",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "DisplayOPN",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "DOCNO",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "rand:int",
+      "range": [10,99999]
     },
     {
       "name": "DOCNO_CK",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "DUEDT",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["2016-02-20 05:55:02","2016-01-24 12:58:05","2016-03-10 16:06:27","2016-03-31 07:33:54",
+        "2016-04-25 18:31:56",
+        "2016-02-06 19:35:49","2016-04-02 11:41:40","2016-02-01 05:36:11","2016-05-02 15:27:50","2016-02-28 17:51:50",
+        "2016-01-03 23:05:16","2016-04-08 08:22:41","2016-03-09 19:40:58","2016-03-09 06:36:45","2016-04-28 19:52:21",
+        "2016-05-02 23:06:05","2016-02-07 08:07:09","2016-05-12 19:31:59","2016-03-15 11:20:30","2016-03-12 04:14:31",
+        "2016-04-03 05:01:23","2016-04-20 03:33:57","2016-02-15 08:37:27","2016-03-17 02:46:25","2016-04-13 01:15:31",
+        "2016-04-23 14:43:04","2016-04-27 08:26:23","2016-03-05 00:43:10","2016-04-14 11:17:00","2016-03-12 19:14:53",
+        "2016-03-24 12:33:26","2016-01-10 11:09:10","2016-03-27 13:21:05","2016-03-26 19:34:43","2016-01-29 16:44:17",
+        "2016-04-22 03:06:19","2016-01-29 02:41:34","2016-02-24 21:41:43","2016-01-23 17:07:20","2016-02-05 05:31:09",
+        "2016-01-11 16:47:44","2016-02-04 02:16:42","2016-01-26 06:28:59","2016-04-23 00:18:50","2016-03-06 08:50:26",
+        "2016-03-18 22:56:49","2016-03-31 16:05:43","2016-02-08 03:33:16","2016-04-07 00:51:25","2016-05-05 07:41:52"]
     },
     {
       "name": "E-Mail Sender",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
-    },
-    {
-      "name": "Created",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
-    },
-    {
-      "name": "Created",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "faker:internet:email"
     },
     {
       "name": "ENG",
       "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "length": 9,
+      "format": "V25/d/d/d-/W/d"
     },
     {
       "name": "ExpCon_9E003_Details",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "ExpCon_9E991",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "ExpCon_9E991_Details",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "ExpCon_Data",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "ExpCon_Data_Details",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "ExpCon_Display",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "ExpCon_EAR99",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "ExpCon_EAR99_Details",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "ExpCon_TechData",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "ExpCon_TechData_Details",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "FIELD_CK",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["OK"]
     },
     {
       "name": "Folder Child Count",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "rand:int",
+      "range": [0,2]
     },
     {
       "name": "FORWFR",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:Name:name"
     },
     {
       "name": "ID",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "rand:int",
+      "range": [70000,79999]
     },
     {
       "name": "INREF",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "faker:internet:email"
     },
     {
       "name": "INREF2",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "LICNO",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["GTDU"]
     },
     {
       "name": "LOC",
       "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "length": 3,
+      "format": "/W/W/W"
     },
     {
       "name": "Modified",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
-    },
+      "type": "fixed",
+      "values": ["2016-02-20 05:55:02","2016-01-24 12:58:05","2016-03-10 16:06:27","2016-03-31 07:33:54",
+        "2016-04-25 18:31:56",
+        "2016-02-06 19:35:49","2016-04-02 11:41:40","2016-02-01 05:36:11","2016-05-02 15:27:50","2016-02-28 17:51:50",
+        "2016-01-03 23:05:16","2016-04-08 08:22:41","2016-03-09 19:40:58","2016-03-09 06:36:45","2016-04-28 19:52:21",
+        "2016-05-02 23:06:05","2016-02-07 08:07:09","2016-05-12 19:31:59","2016-03-15 11:20:30","2016-03-12 04:14:31",
+        "2016-04-03 05:01:23","2016-04-20 03:33:57","2016-02-15 08:37:27","2016-03-17 02:46:25","2016-04-13 01:15:31",
+        "2016-04-23 14:43:04","2016-04-27 08:26:23","2016-03-05 00:43:10","2016-04-14 11:17:00","2016-03-12 19:14:53",
+        "2016-03-24 12:33:26","2016-01-10 11:09:10","2016-03-27 13:21:05","2016-03-26 19:34:43","2016-01-29 16:44:17",
+        "2016-04-22 03:06:19","2016-01-29 02:41:34","2016-02-24 21:41:43","2016-01-23 17:07:20","2016-02-05 05:31:09",
+        "2016-01-11 16:47:44","2016-02-04 02:16:42","2016-01-26 06:28:59","2016-04-23 00:18:50","2016-03-06 08:50:26",
+        "2016-03-18 22:56:49","2016-03-31 16:05:43","2016-02-08 03:33:16","2016-04-07 00:51:25","2016-05-05 07:41:52"]
+      },
     {
       "name": "Modified By",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:Superhero:name"
     },
     {
       "name": "Modified By3",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["System Account"]
     },
     {
       "name": "NOTICE",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["0"]
     },
     {
       "name": "NOTICEOV",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "OfficeFAXPhoneNumber",
       "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "length": 12,
+      "format": "8/d/d-/d/d/d-/d/d/d/d"
     },
     {
       "name": "OfficePhoneNumber",
       "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "length": 12,
+      "format": "8/d/d-/d/d/d-/d/d/d/d"
     },
     {
       "name": "ORGQREF2",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "OVERDUE",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "PARENT_CAT",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "PARENT_CK",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "PARENT_CK2",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "PCOPYTO",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:Name:name"
     },
     {
       "name": "PCOPYTO2",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:Name:name"
     },
     {
       "name": "PCopyTo2EmailAddr",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "faker:internet:email"
     },
     {
       "name": "PFROM",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:Name:name"
     },
     {
       "name": "PFROM2",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:Name:name"
     },
     {
       "name": "PFROMF",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "PFROMF2",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "Priority",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["High", "Low", "Medium"]
     },
     {
       "name": "PSENDTO",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:Name:name"
     },
     {
       "name": "PSENDTO2",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:Name:name"
     },
     {
       "name": "PSendTo2EmailAddr",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "faker:internet:email"
     },
     {
       "name": "QRESET",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["4"]
     },
     {
       "name": "READER",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "READERSET",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["ALL"]
     },
     {
       "name": "REF",
       "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "length": 26,
+      "format": "/W/W/W/d/d/d /W/W 0/d/W/W/W /W/W/W (/W)"
+    },
+    {
+      "name": "REFF",
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "SENDTO",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "SETOVERDUE",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "Signature",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "faker:lorem:paragraph"
     },
     {
       "name": "Status",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": [""]
     },
     {
       "name": "Subject",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "Faker:commerce:product_name"
     },
     {
       "name": "TATDAYS",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["0"]
     },
     {
       "name": "TECHDATA",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "fixed",
+      "values": ["U.S. Original Technical Data"]
     },
     {
       "name": "TFAXDESC",
-      "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "type": "faker:address:city"
     },
     {
       "name": "TFAXNUM",
       "type": "rand:char",
-      "length": 5,
-      "format": "001/W/wabc"
+      "length": 15,
+      "format": "1-8/d/d-/d/d/d-/d/d/d/d"
     },
     {
       "name": "Thread Index",
