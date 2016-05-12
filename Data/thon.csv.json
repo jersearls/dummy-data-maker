@@ -2,44 +2,556 @@
   "rows": 200,
   "fields": [
     {
+      "name": "Created By",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Replies",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Last Updated",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Body",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "CATNM",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Classification",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Classification Disclaimer",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Content Type",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "CPSECT1",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "CPSECT12",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "CRDT",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "CRDT2",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Created",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Created By2",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "CUSTCSM",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "CUSTCSMA",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "CUSTDSC",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Disclaimer",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "DisclaimerTextA",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "DisclaimerTitleA",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "DisclaimerTitleB",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Discussion Title",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "DisplayFrom",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "DisplayJT",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "DisplayOFPN",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "DisplayOPN",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "DOCNO",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "DOCNO_CK",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "DUEDT",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "E-Mail Sender",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Created",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Created",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ENG",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ExpCon_9E003_Details",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ExpCon_9E991",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ExpCon_9E991_Details",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ExpCon_Data",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ExpCon_Data_Details",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ExpCon_Display",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ExpCon_EAR99",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ExpCon_EAR99_Details",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ExpCon_TechData",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ExpCon_TechData_Details",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "FIELD_CK",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Folder Child Count",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "FORWFR",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
       "name": "ID",
       "type": "rand:char",
       "length": 5,
       "format": "001/W/wabc"
     },
     {
-      "name": "First Name",
-      "type": "fixed",
-      "values": ["Peter", "Tom", "Jane", "Tony", "Steve", "John"]
+      "name": "INREF",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
     },
     {
-      "name": "Last Name",
-      "type": "faker:name:last_name",
-      "inject": ["Lu", "Smith"]
+      "name": "INREF2",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
     },
     {
-      "name": "City",
-      "type": "faker:address:city",
-      "rotate": "rows/5"
+      "name": "LICNO",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
     },
     {
-      "name": "State",
-      "type": "faker:address:state_abbr",
-      "rotate": 10,
-      "inject": ["CA"]
+      "name": "LOC",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
     },
     {
-      "name": "Age",
-      "type": "rand:int",
-      "range": [10, 80]
+      "name": "Modified",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
     },
     {
-      "name": "Height",
-      "type": "rand:float",
-      "range": [150, 190],
-      "inject": [200, 210],
-      "rotate": 20,
-      "precision": 2
+      "name": "Modified By",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Modified By3",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "NOTICE",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "NOTICEOV",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "OfficeFAXPhoneNumber",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "OfficePhoneNumber",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "ORGQREF2",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "OVERDUE",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PARENT_CAT",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PARENT_CK",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PARENT_CK2",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PCOPYTO",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PCOPYTO2",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PCopyTo2EmailAddr",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PFROM",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PFROM2",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PFROMF",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PFROMF2",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Priority",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PSENDTO",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PSENDTO2",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "PSendTo2EmailAddr",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "QRESET",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "READER",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "READERSET",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "REF",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "SENDTO",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "SETOVERDUE",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Signature",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Status",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Subject",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "TATDAYS",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "TECHDATA",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "TFAXDESC",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "TFAXNUM",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Thread Index",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "TOPICDSC",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Warning",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Item Type",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
+    },
+    {
+      "name": "Path",
+      "type": "rand:char",
+      "length": 5,
+      "format": "001/W/wabc"
     }
   ]
 }
